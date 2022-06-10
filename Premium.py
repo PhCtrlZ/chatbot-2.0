@@ -26,7 +26,7 @@ except:
     sys.exit ()
 
 b ="sever"
-r = requests.get('https://api.npoint.io/365dfdd4fe77a000f2d2')
+r = requests.get('your api')
 r = json.loads(r.text)
 start = "\033[1m"
 end = "\033[0;0m"
